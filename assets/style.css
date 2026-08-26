@@ -669,7 +669,7 @@ footer{background:var(--navy); padding:64px 0 32px; margin-top:48px; position:re
 }
 @media (max-width:760px){
   :root{--nav-h:66px;}
-  .brand-logo{height:32px;}
+  .brand-logo{height:64px;}
   .container{padding:0 20px;}
   .nav-item{display:none;}
   .nav-links{
