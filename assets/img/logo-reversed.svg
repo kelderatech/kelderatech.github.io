@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 140" role="img" aria-labelledby="kelderaLogoTitleFooter">
+  <title id="kelderaLogoTitleFooter">Keldera Technologies</title>
+  <defs>
+    <linearGradient id="ringGradFooter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4B36A"/>
+      <stop offset="100%" stop-color="#B08A3E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Seal mark: transparent center so it reads cleanly against the navy footer, no CSS filter needed -->
+  <g transform="translate(70,70)">
+    <circle cx="0" cy="0" r="58" fill="none" stroke="url(#ringGradFooter)" stroke-width="4"/>
+    <circle cx="0" cy="0" r="48" fill="none" stroke="#B08A3E" stroke-width="1" opacity="0.55"/>
+    <g stroke="#B08A3E" stroke-width="2" opacity="0.85">
+      <line x1="0" y1="-58" x2="0" y2="-50"/>
+      <line x1="0" y1="58" x2="0" y2="50"/>
+      <line x1="-58" y1="0" x2="-50" y2="0"/>
+      <line x1="58" y1="0" x2="50" y2="0"/>
+      <line x1="41" y1="-41" x2="35.5" y2="-35.5"/>
+      <line x1="-41" y1="-41" x2="-35.5" y2="-35.5"/>
+      <line x1="41" y1="41" x2="35.5" y2="35.5"/>
+      <line x1="-41" y1="41" x2="-35.5" y2="35.5"/>
+    </g>
+    <g fill="none" stroke="#F4F6F9" stroke-width="9" stroke-linecap="square" stroke-linejoin="miter">
+      <line x1="-18" y1="-30" x2="-18" y2="30"/>
+      <line x1="-18" y1="2" x2="22" y2="-30"/>
+      <line x1="-18" y1="2" x2="22" y2="30"/>
+    </g>
+    <line x1="-18" y1="2" x2="2" y2="2" stroke="#B08A3E" stroke-width="9"/>
+  </g>
+
+  <!-- Wordmark, light for a dark background -->
+  <g transform="translate(150,0)">
+    <text x="0" y="65" font-family="'Manrope','Inter',Arial,sans-serif" font-size="40" font-weight="700" fill="#F4F6F9">Keldera</text>
+    <text x="0" y="96" font-family="'Inter',Arial,sans-serif" font-size="16" letter-spacing="4" fill="rgba(244,246,249,0.6)">TECHNOLOGIES</text>
+  </g>
+</svg>
